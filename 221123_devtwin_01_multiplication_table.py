@@ -5,7 +5,7 @@
 
 ### 방법1. 이중 for문 : 1번째 for문 2~9단 / 2번째 for문 곱하는 숫자 1~9
 def multiple1():
-     for a in range(2, 9):          # 1번째 for문 2~9단
+     for a in range(2, 10):          # 1번째 for문 2~9단
          for b in range(1, 10):     # 2번째 for문 곱하는 숫자 1~9
 
              result = f'{a} * {b} = {a*b}'
@@ -89,7 +89,6 @@ def multiple4():
         while k < 9:    # 2번째 while문 곱하는 숫자 1~9
             k += 1
             print(f'{j}*{k} = {j * k}')
-        j = 0
         k += 1
 
 multiple4()
